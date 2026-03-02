@@ -1,0 +1,7 @@
+const btn = document.getElementById("openGift");
+const msg = document.getElementById("message");
+
+btn.addEventListener("click", () => {
+  msg.innerText = "🎉 Wishing you a year full of joy and success! ❤️";
+  btn.style.display = "none";
+});
